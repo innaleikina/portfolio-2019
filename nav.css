@@ -1,0 +1,45 @@
+
+nav {
+    width: 100%;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    /* border: 1px red solid; */
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+
+
+}
+
+#nav-logo {
+    margin: 0;
+    font-size:28px;
+    color:#FFAE00;
+    font-family:"Futura";
+    font-weight: bold;
+}
+
+.nav-btns {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+   
+}
+
+.nav-btn-style{
+    font-family:"Futura";
+    font-size:20px;
+    color:#FF00BB;
+    text-decoration: none;
+}
+
+.nav-btn-style:hover{
+   color:#FFAE00;
+}
+
