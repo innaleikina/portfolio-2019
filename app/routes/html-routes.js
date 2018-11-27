@@ -18,4 +18,8 @@ module.exports = function (app) {
         res.sendFile(path.join(__dirname, "../public/index.html"))
     })
 
+    app.get("/project/id=:id", function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/project.html"))
+    })
+
 }

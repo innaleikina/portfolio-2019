@@ -61,8 +61,7 @@
     function redirectToProject(event) {
         event.preventDefault();
         console.log($(this).data("name"));
-        window.location.href = "/" + $(this).data("name");
-
+        window.location.href = "/project/id=" + $(this).data("name");
     }
 
     $(document).on("click", ".grid-element", redirectToProject);

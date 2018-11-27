@@ -76,6 +76,12 @@ body {
     background: linear-gradient(90deg, rgba(255, 237, 102, 0.4310378086419753) 17%, rgba(255, 209, 209, 1) 81%);
 }
 
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
 html {
     font-family: "Helvetica Neue";
 }
@@ -185,7 +191,7 @@ html {
 footer {
     display:flex;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
     height:30px;
     background-color: rgba(255, 255, 255, 0.75);
     /* display:flex; */

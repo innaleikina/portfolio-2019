@@ -1,0 +1,186 @@
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .95;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .95;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .95;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .95;
+    }
+}
+
+
+.project-container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.white-background {
+    background-color: rgba(255, 255, 255, .5);
+    /* box-shadow: 5px 5px 8px #FAAE00; */
+    width: 700px;
+    margin: 0 auto;
+    /* height: 500px; */
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+
+    justify-content: space-between;
+    animation: fadeIn .9s linear;
+}
+
+
+.project-title {
+    color: #FF00BB;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 1.5px;
+}
+
+.title-small {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF00BB;
+}
+
+.orange {
+    color: #FAAE00;
+}
+
+.problem-solution-wrap {
+    padding: 30px;
+    width: 91%;
+
+}
+
+.text {
+    color: #4B184E;
+    line-height: 1.5;
+}
+
+.problem-wrap {
+    width: 40%;
+    margin: 0px 12px;
+}
+
+.solution-wrap {
+    width: 40%;
+    margin: 0px 12px;
+}
+
+.challenges-wrap {
+    margin-top: 80px;
+}
+
+.functionality-wrap {
+    margin-top: 80px;
+    flex-direction: column;
+    /* padding: 30px; */
+    padding: 30px;
+    width: 91%;
+
+}
+
+.functionality-tech-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stack-item {
+    color: #FF00BB;
+    margin-top: 10px;
+}
+
+.functionality-text-wrap {
+    width: 70%;
+}
+
+.title-buttons-wrap {
+    display: flex;
+    /* border:1px red solid; */
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-btn {
+    border: 1px #FF00BB solid;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #FF00BB;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    font-size: 13px;
+    transition: .2s all linear;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.project-btn:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.project-btn:active {
+ 
+    color:#FAAE00;
+    border-color:#FAAE00;
+}
+
+.project-btn:focus {
+    outline: 0
+}
+
+
+.btns-wrap {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech-wrap{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding:0;
+    margin-right:10px;
+}
+
+.func-text{
+    margin-left:20px;  
+}
+
+.tech-title{
+    margin-left:20px; 
+}
