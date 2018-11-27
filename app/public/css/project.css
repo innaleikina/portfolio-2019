@@ -47,7 +47,7 @@
 .white-background {
     background-color: rgba(255, 255, 255, .5);
     /* box-shadow: 5px 5px 8px #FAAE00; */
-    width: 700px;
+    width: 100%;
     margin: 0 auto;
     /* height: 500px; */
     color: #fff;
@@ -183,4 +183,19 @@
 
 .tech-title{
     margin-left:20px; 
+}
+
+.design-wrap{
+    margin-top:80px;
+}
+
+.swatch{
+    width:20px;
+    height:20px;
+    border:1px red solid;
+}
+
+.project-image{
+    width:100%;
+    margin-top:10px;
 }

@@ -105,10 +105,49 @@ function displayProject(project) {
     functionalityTechWrap.append(stackList);
 
     functionalityWrap.append(functionalityTechWrap);
+    
+    // ===== DESIGN CHOICES =====
+    var designWrap = $("<div>")
+    designWrap.addClass("design-wrap");
+    designWrap.append('<p class="title-small"> design choices </p>')
+    designWrap.append('<p class="text">' + project.design + '</p>')
+   
+
+    // var imageContainer = $("<div>");
+    // imageContainer.addClass("image-container");
+
+    var projectImg = $("<img>");
+    projectImg.addClass("project-image")
+    console.log(project.sketch);
+    projectImg.attr("src", project.sketch);
+    // imageContainer.append(projectImg);
+    designWrap.append(projectImg);
+
+
+      // ===== SCREENSHOTS =====
+
+    //   var screenshotsWrap = $("<div>")
+    //   screenshotsWrap.addClass("design-wrap");
+    //   screenshotsWrap.append('<p class="title-small"> design choices </p>')
+    //   screenshotsWrap.append('<p class="text">' + project.design + '</p>')
+     
+  
+    //   // var imageContainer = $("<div>");
+    //   // imageContainer.addClass("image-container");
+  
+    //   var projectImg = $("<img>");
+    //   projectImg.addClass("project-image")
+    //   console.log(project.sketch);
+    //   projectImg.attr("src", project.screenshots);
+    //   // imageContainer.append(projectImg);
+    //   screenshotsWrap.append(projectImg);
+  
+
 
     oneProjectWrap.append(problemSolutionWrap);
     oneProjectWrap.append(challengesWrap);
     oneProjectWrap.append(functionalityWrap);
+    oneProjectWrap.append(designWrap);
     $(".project-container").append(oneProjectWrap);
 
 }
