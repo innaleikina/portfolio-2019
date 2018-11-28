@@ -1,12 +1,14 @@
 #about {
-    width: 800px;
+    width: 700px;
     margin: 0 auto;
-    /* border:1px red solid; */    padding-bottom: 20px;
+    /* border:1px red solid;     */
+    padding-bottom: 20px;
 }
 
 .about-image{
     width:200px;
     height:300px;
+    padding:30px; 
 }
 
 .about-wrap{
@@ -14,7 +16,7 @@
     /* border:1px purple solid; */
     justify-content: space-between;
     margin-top:40px;
-    padding:30px;
+    /* padding:30px; */
 }
 
 .text-wrap{
@@ -22,8 +24,17 @@
     flex-direction:column;
     /* border:1px red solid; */
     width:50%;
+    padding:30px; 
 }
 
 .about-title{
     margin-top:0px;
+}
+
+.skills-title{
+    margin-top:80px;
+}
+
+.skills-list{
+    margin-bottom:80px;
 }
