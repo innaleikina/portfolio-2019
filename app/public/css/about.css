@@ -1,0 +1,29 @@
+#about {
+    width: 800px;
+    margin: 0 auto;
+    /* border:1px red solid; */    padding-bottom: 20px;
+}
+
+.about-image{
+    width:200px;
+    height:300px;
+}
+
+.about-wrap{
+    display:flex;
+    /* border:1px purple solid; */
+    justify-content: space-between;
+    margin-top:40px;
+    padding:30px;
+}
+
+.text-wrap{
+    display:flex;
+    flex-direction:column;
+    /* border:1px red solid; */
+    width:50%;
+}
+
+.about-title{
+    margin-top:0px;
+}
