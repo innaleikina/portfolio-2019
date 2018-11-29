@@ -71,6 +71,7 @@
     font-size: 20px;
     font-weight: bold;
     color: #FF00BB;
+    margin-bottom:-5px;
 }
 
 .orange {
@@ -128,8 +129,8 @@
 .title-buttons-wrap {
     display: flex;
     /* border:1px red solid; */
-    align-content: center;
-    align-items: center;
+    /* align-content: center;
+    align-items: center; */
     justify-content: space-between;
 }
 
@@ -166,6 +167,7 @@
     width: 150px;
     display: flex;
     justify-content: space-between;
+    margin-top:60px;
 }
 
 .tech-wrap{
@@ -189,13 +191,16 @@
     margin-top:80px;
 }
 
-.swatch{
-    width:20px;
-    height:20px;
-    border:1px red solid;
-}
 
 .project-image{
     width:100%;
     margin-top:10px;
+}
+
+.team-size{
+    color:#4B184E;
+    margin-top:-35px;
+    margin-bottom:80px;
+    font-size:12px;
+    letter-spacing:.8px;
 }

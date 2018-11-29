@@ -40,14 +40,24 @@ function displayProject(project) {
    var h2 = $("<h2>");
     h2.addClass("project-title");
     h2.text(project.name);
+    var p = $("<p>");
+    p.addClass("team-size");
+    p.text("team size: " + project.teamSize)
+
+    var nameTeamWrap = $("<div>");
+    nameTeamWrap.addClass("name-team-wrap");
+    nameTeamWrap.append(h2);
+    nameTeamWrap.append(p);
 
     var buttonsWrap = $("<div>");
     buttonsWrap.addClass("btns-wrap");
     var buttonVisit = $('<a href="'+ project.visitUrl +'" target="_blank"><button class="project-btn"> visit </button></a>');
     var buttonCode = $('<a href="' +project.codeUrl   +'" target="_blank"><button class="project-btn"> code  </button></a>');
 
+    
 
-    titleButtonsWrap.append(h2);
+    titleButtonsWrap.append(nameTeamWrap);
+
     buttonsWrap.append(buttonVisit);
     buttonsWrap.append(buttonCode);
     titleButtonsWrap.append(buttonsWrap);
@@ -118,10 +128,18 @@ function displayProject(project) {
 
     var projectImg = $("<img>");
     projectImg.addClass("project-image")
-    console.log(project.sketch);
+
     projectImg.attr("src", project.sketch);
     // imageContainer.append(projectImg);
     designWrap.append(projectImg);
+
+    var paletteImg = $("<img>");
+    paletteImg.addClass("project-image")
+
+    paletteImg.attr("src", project.palette);
+    // imageContainer.append(projectImg);
+    designWrap.append(paletteImg);
+
 
 
       // ===== SCREENSHOTS =====
