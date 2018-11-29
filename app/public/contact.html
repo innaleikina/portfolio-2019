@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="/css/body.css">
     <link rel="stylesheet" type="text/css" href="/css/nav.css">
     <link rel="stylesheet" type="text/css" href="/css/project.css">
+    <link rel="stylesheet" type="text/css" href="/css/contact.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
 
@@ -27,22 +29,45 @@
                 <a class="nav-btn-style" href="/about">
                     <li> about </li>
                 </a>
-                <a class="nav-btn-style" href="/contact">
+                <a class="nav-btn-style" href="/contactform">
                     <li> contact </li>
+                </a>
+                <a class="nav-btn-style" target="_blank" href="https://innalearnsjs.wordpress.com/">
+                    <li> blog </li>
                 </a>
             </div>
         </ul>
     </nav>
-   
-   
-    <div class="contact">
-
+    <div id="contact">
+        <div id="intro-big">
+            CONTACT
+        </div>
+        <!-- <div id="tag-line">
+                I love everythign about development and design
+            </div> -->
     </div>
+    <div class="contact-wrap">
 
 
-    <div id="grid">
+
+
+        <div class="contact">
+            <p class="text text-contact "> Please reach out with any questions</p>
+            <form action="https://formspree.io/designbyinna@gmail.com" method="POST" >
+                <label name="name" class="text"> name </label>
+                <input>
+
+                <label name="email" class="text">email</label>
+                <input>
+
+                <label name="message" class="text">message</label>
+                <textarea class="text-area"></textarea>
+
+                <button class="project-btn" id="submit"> submit </button>
+            </form>
+
+        </div>
     </div>
-
     <footer>
         <div class="social-icons-wrap">
             <a class="social-icon" href="https://github.com/innaleikina" target="_blank"><i class="fab fa-github-square"></i></a>
