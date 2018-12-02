@@ -31,6 +31,12 @@ nav {
     font-weight: bold;
 }
 
+@media only screen and (max-width:800px){
+    #nav-logo{
+        font-size:25px;
+    }
+}
+
 .nav-btns {
     display: flex;
     width: 250px;
@@ -42,6 +48,7 @@ nav {
     .nav-btns{
         margin-top:10px;
         padding-bottom:10px;
+        width:210px;
     }
 }
 
@@ -50,6 +57,12 @@ nav {
     font-size:20px;
     color:#FF00BB;
     text-decoration: none;
+}
+
+@media only screen and (max-width:800px){
+    .nav-btn-style{
+        font-size:16px;
+    }
 }
 
 .nav-btn-style:hover{
