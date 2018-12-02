@@ -92,6 +92,13 @@ html {
     padding-bottom: 20px;
 }
 
+@media only screen and (max-width:800px) {
+    #body {
+        width: 450px;
+        /* border:1px red solid; */
+    }
+}
+
 @media only screen and (max-width:480px) {
     #body {
         width: 350px;
@@ -109,12 +116,20 @@ html {
     animation: slideIn .9s linear;
 }
 
+@media only screen and (max-width:800px) {
+    #hello {
+        margin-bottom: -10px;
+        margin-left: 22px;
+        font-size: 20px;
+        margin-top: 60px;
+    }
+}
+
+
 @media only screen and (max-width:480px) {
     #hello {
         margin-bottom: -5px;
         margin-left: 20px;
-        font-size: 20px;
-        margin-top: 60px;
     }
 }
 
@@ -125,6 +140,15 @@ html {
     font-weight: bold;
     line-height: 1.2;
     animation: slideIn .9s linear;
+}
+
+@media only screen and (max-width:800px) {
+    #intro-big {
+        font-size: 30px;
+        line-height: 1.4;
+        width: 450px;
+        /* border:1px red solid; */
+    }
 }
 
 @media only screen and (max-width:480px) {
@@ -177,7 +201,7 @@ html {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:800px) {
     #grid {
         width: 380px;
         margin-top: 40px;
