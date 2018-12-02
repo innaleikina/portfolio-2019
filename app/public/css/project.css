@@ -161,6 +161,7 @@
         flex-direction: column;
         padding: 30px;
         width: 80%;
+        /* border:1px red solid; */
     }
 }
 
@@ -172,6 +173,8 @@
 @media only screen and (max-width:800px) {
     .functionality-tech-wrap {
         flex-direction: column;
+        /* border:1px red solid; */
+
     }
 }
 
@@ -189,6 +192,7 @@
     .functionality-text-wrap{
         /* border:1px red solid; */
         width:100%;
+        padding:0;
     }
 }
 
@@ -260,7 +264,6 @@
 
 @media only screen and (max-width:800px){
     .tech-wrap{
-        margin-left:20px;
         flex-direction: row;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -269,11 +272,23 @@
 
 .func-text {
     margin-left: 20px;
+    
 }
 
+@media only screen and (max-width:800px){
+    .func-text{
+        margin-left:0px;
+    }
+}
 
 .tech-title {
     margin-left: 20px;
+}
+
+@media only screen and (max-width:800px){
+    .tech-title{
+        margin-left:0px;
+    }
 }
 
 .design-wrap {
