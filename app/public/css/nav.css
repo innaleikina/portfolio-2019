@@ -17,6 +17,12 @@ nav {
 
 }
 
+@media only screen and (max-width:480px){
+    .nav-ul{
+        flex-direction:column;
+    }
+} 
+
 #nav-logo {
     margin: 0;
     font-size:28px;
@@ -30,6 +36,13 @@ nav {
     width: 250px;
     justify-content: space-between;
    
+}
+
+@media only screen and (max-width:480px){
+    .nav-btns{
+        margin-top:10px;
+        padding-bottom:10px;
+    }
 }
 
 .nav-btn-style{

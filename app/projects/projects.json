@@ -37,7 +37,7 @@
     "challenges": "Scroll is built with mongodb. Our project has 3 collections, user, post and comment. All of the collections have to talk to each other, because the post has an author, it also has comments, but each comment also has an author. It was a challenge thinking through the database relationships, but once we found a pattern we were able to implement it everywhere.",
     "functionality": "Scroll uses React-Router and has protected routes. My partner wrote the Passport and Bcrypt authentication, once the user is signed in they can see all the pages. Users can follow other users, and they only see the posts of whom the follow on the home page. There is also a search page where users can look up posts or users by a search word. Users can comment and like on all posts. Users can also delete their own comments and posts. Users can log out. For the user's reading ease long texts are paginated. ",
     "design": "Scroll started with a color palette. The colors are reserved and muted to not take attention away from the writing. The whole design is minimalistic, nothing extra is present on the page, so the writing remains the main focus. Scroll was designed mobile first.",
-    "visitUrl":"https://pacific-everglades-31097.herokuapp.com/",
+    "visitUrl":"https://fast-beach-43726.herokuapp.com/",
     "codeUrl":"https://github.com/innaleikina/scroll",
     "sketch":"../images/scroll-sketch.jpg",
     "palette":"../images/scroll-palette.jpg",

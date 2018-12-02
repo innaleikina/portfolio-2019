@@ -94,6 +94,12 @@ html {
     padding-bottom: 20px;
 }
 
+@media only screen and (max-width:480px){
+    #body{
+        width:400px;
+        }
+}
+
 #hello {
     color: #FF00BB;
     font-size: 24px;
@@ -102,6 +108,15 @@ html {
     margin-bottom: -20px;
     margin-top: 140px;
     animation: slideIn .9s linear;
+}
+
+@media only screen and (max-width:480px){
+    #hello{
+        margin-bottom:-5px;
+        margin-left:20px;
+        font-size:20px;
+        margin-top:60px;
+    }
 }
 
 #intro-big {
@@ -113,6 +128,18 @@ html {
     animation: slideIn .9s linear;
 }
 
+@media only screen and (max-width:500px){
+    #intro-big {
+        font-family: "Futura";
+        font-size: 30px;
+        color: #FF00BB;
+        font-weight: bold;
+        line-height: 1.2;
+        animation: slideIn .9s linear;
+        width:400px;
+    }
+      
+}
 
 
 .grid-element {
@@ -140,12 +167,12 @@ html {
 
 
 
-#tag-line {
+/* #tag-line {
     color: white;
     font-size: 28px;
     font-family: "helvetica neue";
     font-weight: medium;
-}
+} */
 
 
 #grid {
@@ -153,6 +180,20 @@ html {
     margin: 100px auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+@media only screen and (max-width:480px){
+    #grid{
+        width:400px;
+        margin-top:40px;
+        /* margin: 0 auto;
+        border:1px red solid; */
+    }
+
+    .grid-element{
+        margin:20px auto;
+        width:300px;
+    }
 }
 
 .name {
