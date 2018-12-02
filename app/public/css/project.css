@@ -79,9 +79,9 @@
     letter-spacing: 1.5px;
 }
 
-@media only screen and (max-width:800px){
-    .project-title{
-        font-size:30px;
+@media only screen and (max-width:800px) {
+    .project-title {
+        font-size: 30px;
     }
 }
 
@@ -106,9 +106,9 @@
     .problem-solution-wrap {
         display: flex;
         flex-direction: column;
-        padding:30px;
-        width:80%;
-        margin-top:-20px;
+        padding: 30px;
+        width: 80%;
+        margin-top: -20px;
     }
 }
 
@@ -159,8 +159,8 @@
     .functionality-wrap {
         display: flex;
         flex-direction: column;
-        padding:30px;
-        width:80%;
+        padding: 30px;
+        width: 80%;
     }
 }
 
@@ -169,9 +169,10 @@
     justify-content: space-between;
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:800px) {
     .functionality-tech-wrap {
-        flex-direction:column;
+        flex-direction: column;
+    }
 }
 
 .stack-item {
@@ -183,6 +184,14 @@
     width: 70%;
 }
 
+
+@media only screen and (max-width:800px){
+    .functionality-text-wrap{
+        /* border:1px red solid; */
+        width:100%;
+    }
+}
+
 .title-buttons-wrap {
     display: flex;
     /* border:1px red solid; */
@@ -191,9 +200,9 @@
     justify-content: space-between;
 }
 
-@media only screen and (max-width:800px){
-    .title-buttons-wrap{
-        margin-top:20px;
+@media only screen and (max-width:800px) {
+    .title-buttons-wrap {
+        margin-top: 20px;
     }
 }
 
@@ -234,9 +243,9 @@
     /* border:1px red solid; */
 }
 
-@media only screen and (max-width:800px){
-    .btns-wrap{
-        margin-top:30px;
+@media only screen and (max-width:800px) {
+    .btns-wrap {
+        margin-top: 30px;
     }
 }
 
@@ -249,9 +258,19 @@
     margin-right: 10px;
 }
 
+@media only screen and (max-width:800px){
+    .tech-wrap{
+        margin-left:20px;
+        flex-direction: row;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 .func-text {
     margin-left: 20px;
 }
+
 
 .tech-title {
     margin-left: 20px;
@@ -275,12 +294,9 @@
     letter-spacing: .8px;
 }
 
-@media only screen and (max-width:800px){
-    .team-size{
-        margin-top:-20px;
+@media only screen and (max-width:800px) {
+    .team-size {
+        margin-top: -20px;
         /* border:1px red solid; */
     }
 }
-
-
-
