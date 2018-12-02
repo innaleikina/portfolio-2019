@@ -107,7 +107,7 @@
         display: flex;
         flex-direction: column;
         padding:30px;
-        width:90%;
+        width:80%;
         margin-top:-20px;
     }
 }
@@ -160,7 +160,7 @@
         display: flex;
         flex-direction: column;
         padding:30px;
-        width:90%;
+        width:80%;
     }
 }
 
@@ -169,10 +169,10 @@
     justify-content: space-between;
 }
 
-/* @media only screen and (max-width:800px){
+@media only screen and (max-width:800px){
     .functionality-tech-wrap {
         flex-direction:column;
-} */
+}
 
 .stack-item {
     color: #FF00BB;
