@@ -96,7 +96,7 @@ html {
 
 @media only screen and (max-width:480px){
     #body{
-        width:400px;
+        width:380px;
         }
 }
 
@@ -130,13 +130,9 @@ html {
 
 @media only screen and (max-width:500px){
     #intro-big {
-        font-family: "Futura";
-        font-size: 30px;
-        color: #FF00BB;
-        font-weight: bold;
-        line-height: 1.2;
-        animation: slideIn .9s linear;
-        width:400px;
+        font-size: 28px;
+        line-height: 1.4;
+        width:380px;
     }
       
 }
@@ -184,7 +180,7 @@ html {
 
 @media only screen and (max-width:480px){
     #grid{
-        width:400px;
+        width:380px;
         margin-top:40px;
         /* margin: 0 auto;
         border:1px red solid; */
