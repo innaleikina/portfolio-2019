@@ -96,7 +96,8 @@ html {
 
 @media only screen and (max-width:480px){
     #body{
-        width:380px;
+        width:350px;
+        /* border:1px red solid; */
         }
 }
 
@@ -130,7 +131,7 @@ html {
 
 @media only screen and (max-width:500px){
     #intro-big {
-        font-size: 28px;
+        font-size: 26px;
         line-height: 1.4;
         width:380px;
     }
