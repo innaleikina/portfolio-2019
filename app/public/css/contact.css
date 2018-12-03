@@ -8,6 +8,12 @@ form {
 
 }
 
+@media only screen and (max-width:800px){
+    form{
+        width:350px;
+    }
+}
+
 #contact {
     width: 800px;
     margin: 0 auto;
@@ -18,11 +24,56 @@ form {
     /* margin-bottom:40px; */
 }
 
+@media only screen and (max-width:800px) {
+    #contact {
+        width: 450px;
+        /* border:1px red solid; */
+    }
+}
+
+@media only screen and (max-width:480px) {
+    #contact {
+        width: 350px;
+        /* border:1px red solid; */
+    }
+}
+
+
 .contact-wrap{
     width:700px;
     margin:0 auto;
     text-align:center;
 }
+
+@media only screen and (max-width:800px) {
+   .contact-wrap {
+        width: 450px;
+        /* border:1px red solid; */
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .contact-wrap {
+        width: 350px;
+        /* border:1px red solid; */
+    }
+}
+
+
+@media only screen and (max-width:800px) {
+    .contact {
+        width: 450px;
+        /* border:1px red solid; */
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .contact {
+        width: 350px;
+        /* border:1px red solid; */
+    }
+}
+
 
 label {
     margin-top: 20px;

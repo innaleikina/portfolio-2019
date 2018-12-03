@@ -1,62 +1,136 @@
-.about {
+.about-all {
     width: 700px;
     margin: 0 auto;
     /* border:1px red solid;     */
     padding-bottom: 20px;
 }
 
-#about{
+@media only screen and (max-width:800px) {
+    .about-all {
+        width: 450px;
+        margin-top:-20px;
+
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .about-all {
+        width: 350px;
+        /* border:1px red solid; */
+    }
+}
+
+
+
+#about {
     width: 800px;
     margin: 0 auto;
     /* border:1px red solid; */
     border-bottom: 3px #FF00BB solid;
     padding-bottom: 20px;
-    margin-top:40px;
+    margin-top: 40px;
     /* margin-bottom:40px; */
 }
 
-.about-image{
-    width:200px;
-    height:300px;
-    padding:30px; 
+
+@media only screen and (max-width:800px) {
+    #about {
+        width: 450px;
+        /* border:1px red solid; */
+    }
 }
 
-.about-wrap{
-    display:flex;
+@media only screen and (max-width:480px) {
+    #about {
+        width: 350px;
+        /* border:1px red solid; */
+    }
+}
+
+
+.about-image {
+    width: 200px;
+    height: 300px;
+    padding: 30px;
+}
+
+
+.about-wrap {
+    display: flex;
     /* border:1px purple solid; */
     justify-content: space-between;
-    margin-top:80px;
+    margin-top: 80px;
     /* padding:30px; */
 }
 
-.text-wrap{
-    display:flex;
-    flex-direction:column;
+@media only screen and (max-width:800px) {
+    .about-wrap {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 5px;
+    }
+}
+
+.text-wrap {
+    display: flex;
+    flex-direction: column;
     /* border:1px red solid; */
-    width:50%;
-    padding:30px; 
+    width: 50%;
+    padding: 30px;
+}
+
+@media only screen and (max-width:800px) {
+    .text-wrap {
+        width: 90%;
+        padding: 0;
+
+    }
 }
 
 
-
-.skills-title{
-    margin-top:80px;
+.skills-title {
+    margin-top: 80px;
 }
 
-.skills-list{
-    margin-bottom:80px;
+.skills-list {
+    margin-bottom: 80px;
+    padding: 0;
 }
 
-.skills-wrap{
-    display:flex;
-    width:90%;
+.skills-wrap {
+    display: flex;
+    width: 100%;
     justify-content: space-between;
+    /* border:1px red solid; */
 }
 
-.education{
-    margin-top:22px;
+
+
+.education {
+    margin-top: 22px;
 }
 
-.bold{
-    font-weight:bold;
+.education-wrap-mobile{
+    display:none;
+}
+
+@media only screen and (max-width:800px) {
+    .education {
+     display:none;
+    }
+
+    .education-wrap-mobile{
+        display:flex;
+        padding:0;
+        padding-bottom:40px;
+        margin:0;
+        margin-top:-60px;
+
+    }
+
+
+}
+
+.bold {
+    font-weight: bold;
 }
