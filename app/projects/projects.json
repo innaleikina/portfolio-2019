@@ -9,7 +9,8 @@
     "functionality": "We spent a couple of days thinking about the user flow through the project. The first thing the user sees is the sign in or skip screen. Whichever one the user chooses, they get redirected to the same home screen. If you are logged in, you can save concerts to favorites, if not, you can only browse. The home page has two search bars, one for artist name, one for location. After the search is performed user recieves all matching results, if they click on a result they will see the map of the venue pop up, and also an option to save concert to favorites or buy tickets.",
     "design": "In this team project I was not responsible for the design.",
     "visitUrl":"https://innaleikina.github.io/Concert-Planner/",
-    "codeUrl":"https://github.com/bpadil123/Concert-Planner"
+    "codeUrl":"https://github.com/bpadil123/Concert-Planner",
+    "screenshots":["../images/harmonize-1.jpg","../images/harmonize-2.jpg","../images/harmonize-3.jpg","../images/harmonize-5.jpg","../images/harmonize-6.jpg"]
 },
 {
     "name": "Chewzy",
@@ -17,14 +18,14 @@
     "image":"./images/chewzy.jpg",
     "stackList": ["HTML", "CSS", "Handlebars", "Express", "Auth0", "jQuery", "MySQL","Node"],
     "problem": "Have you ever tried to figure out where to go eat? By the time everyone decides what they want, too much time has gone by, and you just have a frozen pizza. Chewzy is here to help you with this first world problem.",
-    "solution": "Chewzy is a 5 question quiz that takes into account your mood and cusine preference and instantly provides five restaurants for you to choose from. You can also save restaurants to favorites to try out later.",
+    "solution": "Chewzy is a 5 question quiz that takes into account the users' mood and cusine preference and instantly provides five restaurants for the user to choose from. Users can also save restaurants to favorites to try out later.",
     "challenges": "Chewzy was a great project for solidifying my understanding of third party API calls. We used Zomato API for the initial search and then the Google Places and Google Details APIs to get more information about the restaurants. It was definitely a challenge passing data from page to page and avoiding the errors that pop up from JS being asynchronous. I worked with Auth0 for this project, and was able to create a Google log in for this app. I also created most of the routes and MySql queries.",
     "functionality": "We came up with a simple algorithm that determines what the user might like, depending on their answers to our quiz. We have 5 question categories, and each contains multiple questions that are randomized with every refresh. Whichever question gets the highest score makes an API call to the Zomato API with specific cuisine requirements. When an individual restaurant is chosen we use the restaurant name to make an API call to Google Places and Google details to get photos and contact information for that specific establishment.",
     "design": "With this color palette I wanted to keep it simple. Muted main colors and one bright color for highlighting buttons and other clickable elements. The background image is transparent to emphasize that this app is restaurant centered, but not beat the user over the head with it. I also designed the app to flow intuitively, first users get all the results, and then they can choose one place that they like. I was mostly able to keep to the sketch with the final design, but some things had to be changed. We only had one photo, and no map so the restaurant profile got simplified a lot. ",
     "visitUrl":"https://sleepy-sierra-59381.herokuapp.com/",
     "codeUrl":"https://github.com/oserenchenko/Chewzy",
     "sketch":"../images/chewzy-sketch.jpg",
-    "screenshots":[]
+    "screenshots":["../images/chewzy-1.jpg","../images/chewzy-2.jpg","../images/chewzy-3.jpg","../images/chewzy-4.jpg"]
 
 },
 {
@@ -41,7 +42,7 @@
     "codeUrl":"https://github.com/innaleikina/scroll",
     "sketch":"../images/scroll-sketch.jpg",
     "palette":"../images/scroll-palette.jpg",
-    "screenshots":[]
+    "screenshots":["../images/scroll-1.jpg","../images/scroll-2.jpg","../images/scroll-3.jpg","../images/scroll-4.jpg","../images/scroll-6.jpg","../images/scroll-7.jpg","../images/scroll-8.jpg","../images/scroll-9.jpg","../images/scroll-10.jpg"]
 },
 {
     "name": "Methodize",
@@ -56,5 +57,5 @@
     "visitUrl":"https://methodize.herokuapp.com/",
     "codeUrl":"https://github.com/chingu-voyage4/Geckos-Team-19",
     "sketch":[],
-    "screenshots":[]
+    "screenshots":["../images/methodize-1.jpg","../images/methodize-2.jpg","../images/methodize-3.jpg","../images/methodize-4.jpg","../images/methodize-5.jpg"]
 }]

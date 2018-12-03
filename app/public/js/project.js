@@ -142,23 +142,23 @@ function displayProject(project) {
 
 
 
-      // ===== SCREENSHOTS =====
+     // ===== SCREENSHOTS =====
 
-    //   var screenshotsWrap = $("<div>")
-    //   screenshotsWrap.addClass("design-wrap");
-    //   screenshotsWrap.append('<p class="title-small"> design choices </p>')
-    //   screenshotsWrap.append('<p class="text">' + project.design + '</p>')
-     
+      var screenshotsWrap = $("<div>")
+      screenshotsWrap.addClass("screenshots-wrap");
+      screenshotsWrap.append('<p class="title-small screenshots"> screen shots </p>')     
   
-    //   // var imageContainer = $("<div>");
-    //   // imageContainer.addClass("image-container");
-  
-    //   var projectImg = $("<img>");
-    //   projectImg.addClass("project-image")
-    //   console.log(project.sketch);
-    //   projectImg.attr("src", project.screenshots);
-    //   // imageContainer.append(projectImg);
-    //   screenshotsWrap.append(projectImg);
+    //   var imageContainer = $("<div>");
+    //   imageContainer.addClass("image-container");
+    for (var c =0; c <project.screenshots.length; c++){
+        var projectImg = $("<img>");
+        projectImg.addClass("project-image")
+
+        projectImg.attr("src", project.screenshots[c]);
+        screenshotsWrap.append(projectImg);
+
+
+    }
   
 
 
@@ -166,6 +166,7 @@ function displayProject(project) {
     oneProjectWrap.append(challengesWrap);
     oneProjectWrap.append(functionalityWrap);
     oneProjectWrap.append(designWrap);
+    oneProjectWrap.append(screenshotsWrap);
     $(".project-container").append(oneProjectWrap);
 
 }
